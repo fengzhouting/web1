@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>起始页</title>
+    <script src="./iconfont/iconfont.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .button {
+            height: 52px;
+            text-align: center;
+            padding: 0 40px;
+            border-radius: 6px;
+            background-color: #fff;
+            border: none;
+            box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }
+
+        body {
+            font: 16px/1.4 "PingFang SC", "Microsfot YaHei", "Arial"
+        }
+
+
+
+        .layout {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            margin-top: 20px;
+        }
+
+
+        .logo {
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            color: rgb(252, 221, 38)
+        }
+
+        .logo .icon {
+            width: 50px;
+            height: 50px;
+        }
+
+        .logo .logo-title {
+            font-size: 30px;
+            margin-left: 20px;
+            font-weight: 200;
+        }
+
+        section.hero {
+            display: flex;
+        }
+
+        section.hero .text {
+            width: 470px;
+            margin-right: 60px;
+            padding-bottom: 100px;
+        }
+
+        section.hero h1 {
+            margin-top: 138px;
+            color: #343434;
+            font-size: 46px;
+        }
+
+        section.hero p {
+            margin-top: 42px;
+            font-size: 24px;
+        }
+
+
+        .button.active {
+            background-color: rgb(252, 221, 38);
+            padding: 0 80px;
+        }
+
+        section.hero .btns {
+            margin-top: 80px;
+        }
+
+        section.hero .imges {
+            flex: 1;
+            display: flex;
+            align-items: center;
+        }
+
+        section.hero .imges>img {
+            width: 100%;
+            border-radius: 6px;
+            box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        section.intro {
+            background-color: lightyellow;
+            padding: 60px 0;
+        }
+
+        section.intro .second-title {
+            font-size: 20px;
+            text-align: center;
+            color: rgb(255, 188, 0);
+            letter-spacing: 20px;
+        }
+
+        section.intro .title {
+            font-size: 40px;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        section.intro .text {
+            font-size: 10px;
+            text-align: center;
+            color: #666;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="layout">
+            <a href="" class="logo ">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-ningmeng"></use>
+                </svg>
+                <span class="logo-title">起始页</span>
+            </a>
+        </div>
+    </header>
+
+    <section class="hero layout">
+        <div class="text">
+            <h1>简洁、美观、实用的
+                浏览器起始页。</h1>
+            <p>全平台兼容，即开即用。</p>
+
+            <div class="btns">
+                <button class="button active">开始使用</button>
+                <button class="button">安装拓展</button>
+            </div>
+        </div>
+
+        <div class="imges">
+            <img src="./image/1.jpg" alt="网站搜索">
+        </div>
+    </section>
+
+    <section class="intro">
+        <div class="layout">
+            <h3 class="second-title">功能</h3>
+            <h1 class="title">化繁为简。</h1>
+            <p class="text">青柠起始页以最简洁的设计容纳诸多实用功能。</p>
+        </div>
+
+        <div class="pinel">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-sousuo"></use>
+              </svg>
+            <div class="detil">
+                <h4>搜索</h4>
+                <p>使用您喜欢的任意搜索引擎，开启网上冲浪之旅。</p>
+            </div>
+        </div>
+
+
+    </section>
+
+</html>
